@@ -1,0 +1,47 @@
+.container {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+/*---------HEADER---------*/
+.header {
+  background-color: gray;
+  padding: 1.25em 0.9375em;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+.logo-link {
+  display: inline-block;
+  text-align: center;
+  line-height: 40px;
+  height: 44px;
+  width: 44px;
+  size: 24px;
+  border-radius: 50%;
+  border: 2px solid var(--skin-color);
+}
+
+.hamburger-btn {
+  height: 40px;
+  width: 40px;
+  box-shadow: 0 0 10px;
+}
+
+.hamburger-btn-span {
+  display: block;
+  height: 2px;
+  width: 16px;
+}

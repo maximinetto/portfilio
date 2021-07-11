@@ -1,0 +1,34 @@
+{
+  "name": "portfilio",
+  "version": "1.0.0",
+  "description": "My First portfolio",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "serve": "webpack serve",
+    "lint": "eslint src/",
+    "lint-fix": "eslint src/ --fix"
+  },
+  "author": "Maximiliano Minetto",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.6",
+    "eslint": "^7.30.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.2",
+    "rimraf": "^3.0.2",
+    "style-loader": "^3.0.0",
+    "webpack": "^5.44.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "normalize": "^0.3.1",
+    "normalize.css": "^8.0.1"
+  }
+}
